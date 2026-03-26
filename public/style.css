@@ -1,0 +1,235 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+
+background:linear-gradient(135deg,#0f0f0f,#1e1e1e,#2c2c2c);
+color:white;
+
+}
+
+/* NAVBAR */
+
+nav{
+
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:black;
+position:sticky;
+top:0;
+
+}
+
+nav ul{
+
+display:flex;
+list-style:none;
+
+}
+
+nav ul li{
+
+margin-left:20px;
+
+}
+
+nav ul li a{
+
+color:white;
+text-decoration:none;
+
+}
+
+/* HOME */
+
+.home{
+
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+}
+
+.profile{
+
+width:170px;
+height:170px;
+
+border-radius:50%;
+
+border:4px solid #00aaff;
+
+box-shadow:0 0 30px #00aaff;
+
+margin-bottom:20px;
+
+}
+
+.home span{
+
+color:#00aaff;
+
+}
+
+/* SECTIONS */
+
+.section{
+
+padding:20px 10%;
+text-align:center;
+
+}
+
+.section h2{
+
+margin-bottom:30px;
+font-size:32px;
+
+}
+
+/* ABOUT */
+
+.about-text{
+
+max-width:700px;
+margin:auto;
+line-height:1.6;
+
+}
+
+/* SKILLS */
+
+.skills-container{
+
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+
+}
+
+.skill-card{
+
+background:#1f1f1f;
+padding:15px 35px;
+border-radius:10px;
+
+border:1px solid #444;
+
+transition:0.3s;
+
+}
+
+.skill-card:hover{
+
+background:#00aaff;
+transform:translateY(-5px);
+
+}
+
+/* PROJECT */
+
+.project-card{
+
+background:#1b1b1b;
+padding:40px;
+border-radius:10px;
+
+max-width:500px;
+margin:auto;
+
+}
+
+/* CONTACT */
+
+.contact-container{
+
+display:flex;
+justify-content:center;
+gap:60px;
+flex-wrap:wrap;
+
+}
+
+.contact-info{
+
+max-width:300px;
+text-align:left;
+
+}
+
+.contact-form{
+
+display:flex;
+flex-direction:column;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+padding:10px;
+margin:10px 0;
+width:250px;
+
+border:none;
+border-radius:6px;
+
+background:#111;
+color:white;
+
+}
+
+.contact-form button{
+
+padding:10px;
+border:none;
+border-radius:20px;
+
+background:#00aaff;
+color:white;
+cursor:pointer;
+
+}
+
+footer{
+
+text-align:center;
+padding:20px;
+background:black;
+
+}
+table{
+
+width:80%;
+margin:auto;
+border-collapse:collapse;
+
+}
+
+th,td{
+
+border:1px solid #444;
+padding:12px;
+text-align:left;
+
+}
+
+th{
+
+background:#00aaff;
+
+}
+
+tr:nth-child(even){
+
+background:#1f1f1f;
+
+}
